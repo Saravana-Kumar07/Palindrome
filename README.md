@@ -17,10 +17,8 @@ Iterate the loop until the value of i is less than the lenght of string.
 Check whether the reverse of the string is equal to the input string.
 
 ### Step 6:
-When the condition is true display it as a palindrome,otherwise not a palindrome
+When the condition is true display it as a palindrome,otherwise not a palindrome. End of program.
 
-### Step 7:
-End of the Program.
 ## Program:
 ```
 Developed by: Saravana Kumar S
