@@ -54,8 +54,8 @@ namespace palindrome
 }
 ```
 ## Output:
-<img width=350 src="./o1.png">
-<img width=300 src="./o2.png">
+<img src="./o1.png">
+<img src="./o2.png">
 
 ## Result:
 Thus the C# program to display whether the given string is Palindrome or not is executed successfully.
