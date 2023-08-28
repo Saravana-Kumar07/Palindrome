@@ -1,13 +1,61 @@
 # Palindrome
-
-
 ## Aim:
 To write a C# program to find whether the given string is a Palindrome or not.
 ## Algorithm:
+### Step 1:
+Create a new Class named palindrome.
 
+### Step 2:
+Declare two string variables called str and rev.
+### Step 3:
+Get the input as string from the user.
+### Step 4:
+Iterate the loop until the value of i is less than the lenght of string.
+
+### Step 5:
+Check whether the reverse of the string is equal to the input string.
+
+### Step 6:
+When the condition is true display it as a palindrome,otherwise not a palindrome
+
+### Step 7:
+End of the Program.
 ## Program:
+```
+Developed by: Saravana Kumar S
+Reg no: 212221230088
+```
+```c#
+using System;
+namespace palindrome
+{
+    class program
+    {
+        static void Main(String[] args)
+        {
+            string str, rev="";
+            Console.Write("Enter a string:");
+            str = Console.ReadLine();
+            for (int i = str.Length - 1; i >= 0; i--)
+            {
+                rev += str[i];
+            }
+            if (rev == str)
+            {
+                Console.WriteLine(str + " is a palindrome");
+            }
+            else
+            {
+                Console.WriteLine(str + " is not a palindrome");
+            }
 
+        }
+    }
+}
+```
 ## Output:
+<img width=350 src="./o1.png">
+<img width=300 src="./o2.png">
 
 ## Result:
 Thus the C# program to display whether the given string is Palindrome or not is executed successfully.
